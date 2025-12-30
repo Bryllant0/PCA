@@ -1,15 +1,3 @@
-"""
-Principal Component Analysis (PCA) on S&P 500 Sector ETFs
-=========================================================
-This script demonstrates PCA applied to equity markets, showing how to:
-1. Identify the "Market Mode" (PC1) that drives most of equity returns
-2. Discover sector rotation factors in subsequent components
-3. Construct Eigen-Portfolios from eigenvector weights
-4. Compute residuals for statistical arbitrage signals
-
-Author: Bryan BOISLEVE (CentraleSupélec - ESSEC Business School)
-"""
-
 import numpy as np
 import pandas as pd
 import yfinance as yf
